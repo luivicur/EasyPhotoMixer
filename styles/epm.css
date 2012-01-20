@@ -1,0 +1,116 @@
+body {
+	background-color: #1F1F1F;
+	color:#999;
+	font-size: 1em;
+}
+
+#header {
+	min-height:130px;
+	width:100%;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+#title {
+	float: left;
+	width: 60%;
+	min-height: inherit;
+	padding: 10px;
+}
+
+#title img {
+	margin:0px;
+	vertical-align: middle;
+}
+
+#logo {
+	-webkit-transition: -webkit-transform 600s linear; /* "10min should be enough for anybody" */
+}
+
+.spin{
+	-webkit-transform: rotate(36000deg);
+}
+
+#controls {
+	min-height: inherit;
+	float: right;
+	width: 25%;
+	display: table-row;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+#startBtn {
+	float: right;
+}
+
+#saveBtn {
+	float: right;
+}
+
+#controls #spacer{
+	clear: both;
+	display: table-row;
+	height: 35px;
+	vertical-align: middle;
+}
+
+#appArea {
+	min-height: 300px;
+	clear: both;
+}
+
+#displayArea {
+	width: 60%;
+	height: 100%;
+	min-height: 250px;
+	background-color:#000000;
+	float: right;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#mainImg {
+	width: 100%;
+	padding: 1px;
+}
+
+#inputThumbnails {
+	width: 35%;
+	height: 100%;
+	min-height: 250px;
+	background-color:#000000;
+	float: left;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.dragHover {
+	background-color:#A17225 !important;
+}
+
+.thumbnail {
+	display: inline;
+	width: 150px;
+	padding: 2px;
+	background-color: #AAAAAA;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-top: 2px;
+	margin-bottom: 2px; 
+}
+
+#footer{
+	height: 100px;
+	width: 100%;
+	background-color: #EEE;
+	clear: both;
+}
+
+#workArea {
+	/* Hide the canvas */
+	width:0px;
+	height:0px;
+	border:0px;
+	overflow:hidden;
+}
